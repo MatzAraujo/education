@@ -1,7 +1,8 @@
 .header{
-    margin-top: 2.6rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 2.6rem;
 }
 
 .logo a{
@@ -9,3 +10,32 @@
     font-weight: bold;
 }
 span{color: var(--titleClr);}
+
+.menuLinks{
+    color: var(--txtClr);
+    transition: color .3s ease-in-out, .3s font-weight ease;
+    margin-right: 4.6rem;
+}
+
+.menuLinks:hover{
+    font-weight: bold;
+    color: var(--titleClr);
+}
+
+.signIn{
+    margin-left: 13rem;
+    color: var(--titleClr);
+    font-weight: bold;
+}
+.signUpBtn{
+    background-image: linear-gradient(to right, #525fe1, #2e3899);
+    color: #fff;
+    height: 4.8rem;
+    width: 12.4rem;
+    border-radius: 13px;
+    padding: 1.3rem 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 1.8rem;
+}
+
