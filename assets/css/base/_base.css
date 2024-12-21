@@ -4,7 +4,9 @@ html{
     overflow-x: hidden;
 }
 
-body{}
+body{
+    font-family: "Poppins", serif;
+}
 
 .wrapper{
     padding-inline: 12.3rem;
@@ -13,3 +15,9 @@ body{}
 .container{
     max-width: 1366px;
 }
+
+.fs52{font-size: var(--titleFont);}
+.fs22{font-size: var(--cardsFont);}
+.fs18{font-size: var(--textFont);}
+.fs15{font-size: var(--homeFont);}
+.fs14{font-size: var(--linksFont);}

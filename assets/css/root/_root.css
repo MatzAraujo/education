@@ -1,0 +1,13 @@
+:root{
+    /* colors */
+    --primaryClr:hsl(235, 70%, 60%);
+    --titleClr:hsl(0, 0%, 11%);
+    --txtClr:#808080;
+
+    /* fonts */
+    --titleFont:5.2rem;
+    --cardsFont:2.2rem;
+    --homeFont:1.5rem;
+    --textFont:1.8rem;
+    --linksFont:1.4rem;
+}
