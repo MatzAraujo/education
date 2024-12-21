@@ -1,0 +1,11 @@
+.header{
+    margin-top: 2.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    color: var(--primaryClr);
+    font-weight: bold;
+}
+span{color: var(--titleClr);}
