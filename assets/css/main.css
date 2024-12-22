@@ -3,3 +3,4 @@
 @import url(/assets/css/base/_base.css);
 @import url(/assets/css/root/_root.css);
 @import url(/assets/css/layout/_header.css);
+@import url(/assets/css/media/_general.css); /* media queries*/

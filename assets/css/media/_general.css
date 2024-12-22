@@ -1,0 +1,23 @@
+    /* small screens */
+
+@media(max-width:576px){
+    .wrapper{
+        padding-inline: 2rem;
+    }
+
+    .menuItems{
+        display: none;
+    }
+}
+
+/* medium  sizes */
+
+@media(max-width:768px){
+    .wrapper{
+        padding-inline: 2rem;
+    }
+
+    .header .menuLinks{
+        margin-right: .2rem;
+    }
+}
