@@ -8,6 +8,11 @@
 .logo a{
     color: var(--primaryClr);
     font-weight: bold;
+    transition: .4s;
+}
+
+.logo a:hover{
+    letter-spacing: 2px;
 }
 span{color: var(--titleClr);}
 
@@ -26,7 +31,20 @@ span{color: var(--titleClr);}
     margin-left: 13rem;
     color: var(--titleClr);
     font-weight: bold;
+    position: relative;
 }
+
+.signIn::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    transition: background .5s ease;
+    bottom: -3px;
+    left: 0;
+}
+.signIn:hover::after{background: var(--primaryClr);}
+
 .signUpBtn{
     background-image: linear-gradient(to right, #525fe1, #2e3899);
     color: #fff;
@@ -37,5 +55,12 @@ span{color: var(--titleClr);}
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 1.8rem;
+    transition: all 0.3s ease-in-out;
 }
+
+.signUpBtn:hover {
+    box-shadow: 0 0 20px rgba(82, 95, 225, 1), 0 0 40px rgba(46, 56, 153, 1);
+    transform: scale(1.05);
+  }
+  
 
