@@ -63,4 +63,6 @@ span{color: var(--titleClr);}
     transform: scale(1.05);
   }
   
-
+.toggle{
+    display: none;
+}

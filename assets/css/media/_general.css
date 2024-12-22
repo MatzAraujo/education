@@ -5,10 +5,56 @@
         padding-inline: 2rem;
     }
 
+    /* header */
+
+    .logo{
+        position: fixed;
+        top: 6rem;
+    }
+
     .menuItems{
         display: none;
     }
+    /* show is when we click on menu burguer */
+    .menu.show{
+        height: 100vh;
+        width: 56%;
+        position: relative;
+        top: 4rem;
+        right: -15rem;
+        background: red;
+    }
+
+    .show .menuItems{
+        padding: 1.6em;
+        display: grid;
+        gap: 1rem;
+        justify-items: flex-end;
+    }
+
+    .show .toggle{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: -.3rem;
+    }
+
+    .signIn{
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .signUpBtn{
+        background: red;
+        border-radius: 0;
+        border: 0;
+        padding: 0;
+        height: 0;
+        width: 5.6rem;
+        font-size: var(--linksFont);
+        color: var(--txtClr);
+    }
 }
+
 
 /* medium  sizes */
 
