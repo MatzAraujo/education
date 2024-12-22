@@ -15,6 +15,13 @@
     .menuItems{
         display: none;
     }
+
+    .icon-menu{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 6em;
+    }   
     /* show is when we click on menu burguer */
     .menu.show{
         height: 100vh;
@@ -32,7 +39,11 @@
         justify-items: flex-end;
     }
 
-    .show .toggle{
+    .show .icon-menu{
+        display: none;
+    }
+
+    .show .icon-close{
         display: block;
         position: absolute;
         right: 1rem;
@@ -54,7 +65,6 @@
         color: var(--txtClr);
     }
 }
-
 
 /* medium  sizes */
 
